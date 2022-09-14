@@ -21,8 +21,8 @@ int main(int argc, char* argv[])
     {
         GetCursorPos(&P);
         std::cout
-        << "static int X = " << P.x << ";" << std::endl
-        << "static int Y = " << P.y << ";" << std::endl
+        << "const int X = " << P.x << ";" << std::endl
+        << "const int Y = " << P.y << ";" << std::endl
         << "----------------" << std::endl;
         Beep(100, 100);
         if(slp == 0)
